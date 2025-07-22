@@ -4,11 +4,6 @@ This file shows how to properly use logging and function tracking.
 """
 
 import inspect
-import sys
-import os
-
-# Add parent directory to path to import setup_logger
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from setup_logger import get_logger
 
