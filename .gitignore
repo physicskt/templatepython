@@ -1,2 +1,6 @@
 .env
 config.py
+results/
+.app.log
+__pycache__/
+*.pyc
