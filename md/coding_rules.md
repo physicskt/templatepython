@@ -84,6 +84,9 @@ from config import DATABASE_URL, API_KEY
 - `.app.log`
 - `.env`
 
+## Google spread sheet API の credential は credential.json
+json 種類は サービスアカウントとしてください。
+
 ## 注意事項 (Important Notes)
 
 1. 設定ファイルには機密情報を含める可能性があるため、必ず`.gitignore`の設定を確認してください
